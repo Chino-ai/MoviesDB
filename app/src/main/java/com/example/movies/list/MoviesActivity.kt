@@ -93,6 +93,7 @@ class MoviesActivity : AppCompatActivity() {
             R.id.action_grid_layout -> {
                 recycler = findViewById(R.id.rv)
                 recycler.layoutManager = GridLayoutManager(this,2)
+
             }
             R.id.action_linear_layout-> {
                 recycler = findViewById(R.id.rv)
